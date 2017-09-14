@@ -54,3 +54,6 @@ log(3.0)        //"Natural logarithm"
 log2(3.0)       //"Base-2 logarithm"
 log10(3.0)      //"Base-10 logarithm"
 log1p(3.0)      //"Natural log of 1 + x"
+
+/* Random number */
+Int(arc4random_uniform(10)) //"Generates a random int between 0..9"
